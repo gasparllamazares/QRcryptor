@@ -2,7 +2,7 @@
 QR encrypted data generator
 
 
-# Files:
+# Files
   QRnumberGen: generates and encrypts numbers in a range from 0 to 1000 (usually for lottery tickets to prevent forgery) and then
     generates QR codes with each crypted number and saves them
         Modules used: qrcode, cryptography, PIL
@@ -14,7 +14,7 @@ QR encrypted data generator
 # Program details
    Mainly dedicated to Oviedo university to help and prevent forgery in lottery tickets
    
-# Program Features
+# Program features
    Mainly focused on number encryption to avoid forgery
    Generate numbers in a custom range
    Encrypts numbers with cryptography module using Fernet with a simple randomly generated key.
