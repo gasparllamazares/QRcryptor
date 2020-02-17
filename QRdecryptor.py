@@ -18,7 +18,7 @@ while True:
     print(ascii_banner)
     encrypted = input('Introducir QR cifrado: ')
     print("")
-    f2 = Fernet(b'gwi9ACyzHI87zhl5wYM1GOJlZhOePAZl4K3obyHWB4w=')
+    f2 = Fernet(b'your fernet generated key')
     try:
         f2.decrypt(encrypted.encode())
     except:
