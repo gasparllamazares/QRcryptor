@@ -19,7 +19,7 @@ QR encrypted data generator
    * Generate numbers in a custom range
    * Encrypts numbers with cryptography module using Fernet with a simple randomly generated key.
    * Converts the previosuly generated and encrypted numbers into QR codes (Usually for pasting them in any kind of protected document)
-   * Saving QR codes with format 'No{n}.png' being n the crypted numnber
+   * Saving QR codes with format 'No{n}.png' being n the crypted number
    
    QRdecryptor: 
    * Decrypts QR codes using Fernet (cryptography module) and the previosuly used key to generate encrypted numbers.
