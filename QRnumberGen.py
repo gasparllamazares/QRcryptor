@@ -1,7 +1,7 @@
 import qrcode
 from cryptography.fernet import Fernet
 from PIL import ImageShow
-file = open('key.key', 'rb')
+file = open('key.key', 'rb') #Here your Fernet key stored in a key.key file
 key = file.read()
 file.close()
 print(key)
