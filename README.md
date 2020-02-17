@@ -12,7 +12,8 @@ QR encrypted data generator
   * Modules used: Cryptography, time, random, tqdm, pyfiglet, keyboard, os, termcolor, pynput
         
 # Program details
-   Mainly dedicated to Oviedo university to help and prevent forgery in lottery tickets
+   Mainly dedicated to Oviedo university to help and prevent forgery in lottery tickets. 
+   Actually being used as a security system for a raffle going on. No issues found yet.
    
 # Program features
    * Mainly focused on number encryption to avoid forgery
