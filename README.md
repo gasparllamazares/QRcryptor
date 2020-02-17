@@ -16,6 +16,7 @@ QR encrypted data generator
    
 # Program features
    * Mainly focused on number encryption to avoid forgery
+   * Opens file key.key with stored fernet key to encrypt numbers
    * Generate numbers in a custom range
    * Encrypts numbers with cryptography module using Fernet with a simple randomly generated key.
    * Converts the previosuly generated and encrypted numbers into QR codes (Usually for pasting them in any kind of protected document)
